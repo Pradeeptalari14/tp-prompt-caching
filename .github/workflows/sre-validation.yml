@@ -1,0 +1,19 @@
+name: Prompt Prefix Stability & Cache Verification
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-prompts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run prompt linting and prefix stability validation
+        run: |
+          chmod +x scripts/validate.sh
+          bash scripts/validate.sh
