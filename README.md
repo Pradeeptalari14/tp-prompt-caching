@@ -1,3 +1,6 @@
+[![Ecosystem](https://img.shields.io/badge/Portfolio%20Ecosystem-341%20Studios-6366f1.svg)](https://pradeeptalari.me/projects/)
+[![Architecture DAG](https://img.shields.io/badge/Architecture-DAG%20%26%20Course-10b981.svg)](https://pradeeptalari.me/tools/repo-learning/)
+
 ## 🚀 Step-by-Step Onboarding & Validation Guide
 
 Follow these SRE steps to deploy, validate, and monitor this repository's workspace configs in a local or production environment:
@@ -51,3 +54,6 @@ Inspect logs to ensure cache hits and reads are tracked accurately:
 ```bash
 docker compose logs proxy-cache | grep "HIT"
 ```
+
+---
+*Synchronized with [Prompt Caching & Cost Optimization Studio Studio](https://pradeeptalari.me/tools/prompt-caching/) & [Repository Learning DAG](https://pradeeptalari.me/tools/repo-learning/) — [Talari Pradeep Portfolio](https://pradeeptalari.me)*
